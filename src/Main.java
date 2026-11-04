@@ -15,6 +15,18 @@ public class Main {
         j1.idade = sc.nextInt();
         System.out.println("Digite seu level");
         j1.level = sc.nextInt();
+        System.out.println("Digite seu numero de vitorias:");
+        j1.vitorias = sc.nextInt();
+        System.out.println("Digite seu numero de derrotas:");
+        j1.derrotas = sc.nextInt();
+        System.out.println("Vitorias: " + j1.vitorias);
+        System.out.println("Derrotas: " + j1.derrotas);
+        System.out.printf("Porcentagem de vitorias: %.2f%%\n ",
+                j1.calcularPorcentagemVitorias());
+        System.out.printf("Porcentagem de derrotas: %.2f%%\n ",
+                j1.calcularPorcentagemDerrotas());
+
+
 
 
 
