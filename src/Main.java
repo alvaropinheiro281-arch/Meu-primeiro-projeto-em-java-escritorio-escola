@@ -5,6 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Jogador j1 = new Jogador();
 
+        System.out.println("=== CADASTRO DE JOGADOR ===");
         System.out.println("Digite seu nome:");
         j1.nome = sc.nextLine();
         System.out.println("Digite seu NickName:");
@@ -25,6 +26,7 @@ public class Main {
                 j1.calcularPorcentagemVitorias());
         System.out.printf("Porcentagem de derrotas: %.2f%%\n ",
                 j1.calcularPorcentagemDerrotas());
+
 
 
 

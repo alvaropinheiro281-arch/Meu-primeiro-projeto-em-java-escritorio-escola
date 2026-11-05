@@ -26,5 +26,9 @@ public class Jogador {
         }
         return (double) derrotas / total * 100;
        }
-    }
+
+
+}
+
+
 
